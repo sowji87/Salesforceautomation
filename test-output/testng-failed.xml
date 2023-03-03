@@ -1,21 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [SalesForce]">
-  <listeners>
-    <listener class-name="com.training.listeners.TestListener"/>
-  </listeners>
-  <test thread-count="5" name="home(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.training.tests.HomeTest">
+      <class name="com.training.tests.ContactsTest">
         <methods>
-          <include name="teardown"/>
-          <include name="selectUserNameforDropdown"/>
-          <include name="selectMyProfile"/>
-          <include name="selectLogout"/>
           <include name="beforeMethod"/>
-          <include name="selectMySettings"/>
+          <include name="teardown"/>
+          <include name="Createnewcontact"/>
         </methods>
-      </class> <!-- com.training.tests.HomeTest -->
+      </class> <!-- com.training.tests.ContactsTest -->
     </classes>
-  </test> <!-- home(failed) -->
-</suite> <!-- Failed suite [SalesForce] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

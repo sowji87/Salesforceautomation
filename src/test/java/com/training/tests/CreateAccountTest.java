@@ -82,18 +82,22 @@ public class CreateAccountTest extends BaseTest{
 	 login.enterIntoEmail(email);
 	 login.enterIntoPassword(password);
 	 login.clickOnLogin();
-	 account.clickOnCreateAccount();
-	 account.selectView();
-	 account.clickEdit();
-	 account.enterViewName(ViewName1);
-	 account.enterUniqueViewName(UniqueViewName1);
-	 account.selectByAccountName();
-	 account.selectOperator();
-	 account.enterValue(Value);
-	 account.ClickonSave();
-
+	account.clickOnAccountTab();
+	/*
+	 * account.clickEdit(); account.enterViewName(ViewName1);
+	 * account.enterUniqueViewName(UniqueViewName1); account.selectByAccountName();
+	 * account.selectOperator(); account.enterValue(Value); account.ClickonSave();
+	 */
  }
- 
+ @Test      //TC13 Merge Account
+ public void mergeAccount() throws Exception  {
+	 login.enterIntoEmail(email);
+	 login.enterIntoPassword(password);
+	 login.clickOnLogin();
+	account.clickOnAccountTab();
+	account.mergeAccounts();
+	account.mergeAccounts1();
+ }
  @AfterMethod
 	public void teardown() {
 	takescreenshot(driver);

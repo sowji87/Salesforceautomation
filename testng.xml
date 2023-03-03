@@ -9,6 +9,10 @@
 <classes>
  <class name="com.training.tests.LoginTest"> </class>
  <class name="com.training.tests.HomeTest"> </class>
+  <class name="com.training.tests.CreateAccountTest"> </class>
+ <class name="com.training.tests.CreateOpportunitiesTest"> </class>
+ <class name="com.training.tests.LeadsTest"> </class>
+ 
  
 </classes>
 </test>

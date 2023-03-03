@@ -9,11 +9,9 @@
       <class name="com.training.tests.HomeTest">
         <methods>
           <include name="teardown"/>
-          <include name="selectUserNameforDropdown"/>
           <include name="selectMyProfile"/>
           <include name="selectLogout"/>
           <include name="beforeMethod"/>
-          <include name="selectMySettings"/>
         </methods>
       </class> <!-- com.training.tests.HomeTest -->
     </classes>

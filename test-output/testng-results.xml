@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="5" total="6" passed="1">
+<testng-results skipped="0" failed="0" ignored="4" total="5" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="24845" started-at="2023-02-18T10:35:40 PST" finished-at="2023-02-18T10:36:05 PST">
+  <suite name="Default suite" duration-ms="15131" started-at="2023-02-28T16:25:16 PST" finished-at="2023-02-28T16:25:31 PST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="24845" started-at="2023-02-18T10:35:40 PST" finished-at="2023-02-18T10:36:05 PST">
-      <class name="com.training.tests.HomeTest">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.training.tests.HomeTest@29b5cd00]" name="beforeMethod" is-config="true" duration-ms="2350" started-at="2023-02-18T10:35:40 PST" finished-at="2023-02-18T10:35:43 PST">
+    <test name="Default test" duration-ms="15131" started-at="2023-02-28T16:25:16 PST" finished-at="2023-02-28T16:25:31 PST">
+      <class name="com.training.tests.ContactsTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.training.tests.ContactsTest@29b5cd00]" name="beforeMethod" is-config="true" duration-ms="3324" started-at="2023-02-28T16:25:16 PST" finished-at="2023-02-28T16:25:20 PST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="selectUserNameforDropdown()[pri:0, instance:com.training.tests.HomeTest@29b5cd00]" name="selectUserNameforDropdown" duration-ms="6042" started-at="2023-02-18T10:35:43 PST" finished-at="2023-02-18T10:35:49 PST">
+        <test-method status="PASS" signature="Createnewcontact()[pri:0, instance:com.training.tests.ContactsTest@29b5cd00]" name="Createnewcontact" duration-ms="11383" started-at="2023-02-28T16:25:20 PST" finished-at="2023-02-28T16:25:31 PST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- selectUserNameforDropdown -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.training.tests.HomeTest@29b5cd00]" name="teardown" is-config="true" duration-ms="16429" started-at="2023-02-18T10:35:49 PST" finished-at="2023-02-18T10:36:05 PST">
+        </test-method> <!-- Createnewcontact -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.training.tests.ContactsTest@29b5cd00]" name="teardown" is-config="true" duration-ms="379" started-at="2023-02-28T16:25:31 PST" finished-at="2023-02-28T16:25:31 PST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- com.training.tests.HomeTest -->
+      </class> <!-- com.training.tests.ContactsTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -118,7 +118,7 @@ public class HomeTest extends BaseTest {
 		login.enterIntoEmail(email);
 		login.enterIntoPassword(password);
 		login.clickOnLogin();
-		home.clickHome();
+		home.selectUsernameDropdown();
 		home.clickOnLogout();
 	}
 	
